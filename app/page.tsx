@@ -12,10 +12,16 @@ const Navbar = () => {
       <Link href="/about">
         About
       </Link>&nbsp;&nbsp;&nbsp;
+      <Link href="/user">
+        User
+      </Link>&nbsp;&nbsp;&nbsp;
       <Link href="/contact">
         Contact
       </Link>
     </nav>
+    <hr/>
+    Home Page
+    <hr/>
     <Image 
       src={localImage} 
       alt="Description of the school" 
